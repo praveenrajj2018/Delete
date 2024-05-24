@@ -1,0 +1,103 @@
+2024-05-23 16:42:52.945 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-23 16:42:52.993 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-23 16:42:52.994 +05:30 [INF] Hosting environment: Development
+2024-05-23 16:42:52.995 +05:30 [INF] Content root path: C:\Users\praveen.janarthanam\Desktop\Backend sprint3\Backend_Spirint_3\LXP\LXP.Api
+2024-05-23 16:42:57.044 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger - null null
+2024-05-23 16:42:57.602 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger - 301 0 null 567.3483ms
+2024-05-23 16:42:57.608 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-23 16:42:57.686 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 78.455ms
+2024-05-23 16:42:57.692 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/swagger-ui-bundle.js - null null
+2024-05-23 16:42:57.702 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/swagger-ui-standalone-preset.js - null null
+2024-05-23 16:42:57.706 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-23 16:42:57.692 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/swagger-ui.css - null null
+2024-05-23 16:42:57.726 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 20.0379ms
+2024-05-23 16:42:57.713 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-23 16:42:57.792 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-23 16:42:57.792 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-23 16:42:57.792 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-23 16:42:57.795 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/swagger-ui.css - 200 143943 text/css 103.0249ms
+2024-05-23 16:42:57.795 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 99.35ms
+2024-05-23 16:42:57.796 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 104.6212ms
+2024-05-23 16:42:57.836 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 122.4385ms
+2024-05-23 16:42:57.978 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-23 16:42:58.119 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 141.4504ms
+2024-05-23 16:44:01.341 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/lxp/course/topic/0717cf46-e341-4863-b209-e0422d2109eb/materialtype/6f11c0e3-0f1f-4c72-831e-c733f4b6cb8d - null null
+2024-05-23 16:44:01.355 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-05-23 16:44:01.361 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.MaterialController.GetAllMaterialDetailsByTopicAndMaterialType (LXP.Api)'
+2024-05-23 16:44:01.381 +05:30 [INF] Route matched with {action = "GetAllMaterialDetailsByTopicAndMaterialType", controller = "Material"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[LXP.Common.ViewModels.MaterialListViewModel]] GetAllMaterialDetailsByTopicAndMaterialType(System.String, System.String) on controller LXP.Api.Controllers.MaterialController (LXP.Api).
+2024-05-23 16:44:03.320 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[LXP.Common.ViewModels.MaterialListViewModel, LXP.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-23 16:44:03.347 +05:30 [INF] Executed action LXP.Api.Controllers.MaterialController.GetAllMaterialDetailsByTopicAndMaterialType (LXP.Api) in 1960.1014ms
+2024-05-23 16:44:03.356 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.MaterialController.GetAllMaterialDetailsByTopicAndMaterialType (LXP.Api)'
+2024-05-23 16:44:03.362 +05:30 [INF] HTTP GET /lxp/course/topic/0717cf46-e341-4863-b209-e0422d2109eb/materialtype/6f11c0e3-0f1f-4c72-831e-c733f4b6cb8d responded 200 in 2006.1994 ms
+2024-05-23 16:44:03.377 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/lxp/course/topic/0717cf46-e341-4863-b209-e0422d2109eb/materialtype/6f11c0e3-0f1f-4c72-831e-c733f4b6cb8d - 200 null application/json; charset=utf-8 2035.9177ms
+2024-05-23 16:44:32.514 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/lxp/course/topic/0717cf46-e341-4863-b209-e0422d2109eb/materialtype/6f11c0e3-0f1f-4c72-831e-c733f4b6cb8d - null null
+2024-05-23 16:44:32.529 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.MaterialController.GetAllMaterialDetailsByTopicAndMaterialType (LXP.Api)'
+2024-05-23 16:44:32.531 +05:30 [INF] Route matched with {action = "GetAllMaterialDetailsByTopicAndMaterialType", controller = "Material"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[LXP.Common.ViewModels.MaterialListViewModel]] GetAllMaterialDetailsByTopicAndMaterialType(System.String, System.String) on controller LXP.Api.Controllers.MaterialController (LXP.Api).
+2024-05-23 16:44:32.622 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[LXP.Common.ViewModels.MaterialListViewModel, LXP.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-23 16:44:32.625 +05:30 [INF] Executed action LXP.Api.Controllers.MaterialController.GetAllMaterialDetailsByTopicAndMaterialType (LXP.Api) in 90.9749ms
+2024-05-23 16:44:32.627 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.MaterialController.GetAllMaterialDetailsByTopicAndMaterialType (LXP.Api)'
+2024-05-23 16:44:32.628 +05:30 [INF] HTTP GET /lxp/course/topic/0717cf46-e341-4863-b209-e0422d2109eb/materialtype/6f11c0e3-0f1f-4c72-831e-c733f4b6cb8d responded 200 in 99.5526 ms
+2024-05-23 16:44:32.632 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/lxp/course/topic/0717cf46-e341-4863-b209-e0422d2109eb/materialtype/6f11c0e3-0f1f-4c72-831e-c733f4b6cb8d - 200 null application/json; charset=utf-8 118.0519ms
+2024-05-23 16:54:28.988 +05:30 [INF] Request starting HTTP/1.1 DELETE http://localhost:5199/lxp/course/material/1d564b70-748c-477d-8a7d-e0b2790e06dc - null null
+2024-05-23 16:54:28.994 +05:30 [INF] CORS policy execution successful.
+2024-05-23 16:54:28.995 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.MaterialController.DeleteMaterial (LXP.Api)'
+2024-05-23 16:54:29.001 +05:30 [INF] Route matched with {action = "DeleteMaterial", controller = "Material"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteMaterial(System.Guid) on controller LXP.Api.Controllers.MaterialController (LXP.Api).
+2024-05-23 16:54:29.217 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.APIResponse'.
+2024-05-23 16:54:29.226 +05:30 [INF] Executed action LXP.Api.Controllers.MaterialController.DeleteMaterial (LXP.Api) in 221.4616ms
+2024-05-23 16:54:29.228 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.MaterialController.DeleteMaterial (LXP.Api)'
+2024-05-23 16:54:29.230 +05:30 [INF] HTTP DELETE /lxp/course/material/1d564b70-748c-477d-8a7d-e0b2790e06dc responded 200 in 236.7879 ms
+2024-05-23 16:54:29.233 +05:30 [INF] Request finished HTTP/1.1 DELETE http://localhost:5199/lxp/course/material/1d564b70-748c-477d-8a7d-e0b2790e06dc - 200 null application/json; charset=utf-8 245.3209ms
+2024-05-23 17:00:58.995 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-23 17:00:59.007 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 12.2105ms
+2024-05-23 17:00:59.022 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-23 17:00:59.023 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-23 17:00:59.025 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 3.215ms
+2024-05-23 17:00:59.039 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.5426ms
+2024-05-23 17:00:59.211 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-23 17:00:59.227 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/favicon-32x32.png - null null
+2024-05-23 17:00:59.232 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-23 17:00:59.232 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 21.3308ms
+2024-05-23 17:00:59.234 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/favicon-32x32.png - 200 628 image/png 7.8378ms
+2024-05-23 17:01:34.426 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-23 17:01:34.474 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-23 17:01:34.477 +05:30 [INF] Hosting environment: Development
+2024-05-23 17:01:34.480 +05:30 [INF] Content root path: C:\Users\praveen.janarthanam\Desktop\Backend sprint3\Backend_Spirint_3\LXP\LXP.Api
+2024-05-23 17:01:39.345 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-23 17:01:39.388 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-23 17:01:39.390 +05:30 [INF] Hosting environment: Development
+2024-05-23 17:01:39.392 +05:30 [INF] Content root path: C:\Users\praveen.janarthanam\Desktop\Backend sprint3\Backend_Spirint_3\LXP\LXP.Api
+2024-05-23 17:01:40.567 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-23 17:01:41.216 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 657.8961ms
+2024-05-23 17:01:41.229 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-23 17:01:41.236 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 8.1165ms
+2024-05-23 17:01:41.242 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-23 17:01:41.290 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.3453ms
+2024-05-23 17:01:41.364 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-23 17:01:41.480 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 116.1822ms
+2024-05-23 17:33:13.277 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/lxp/course/materialtype - null null
+2024-05-23 17:33:13.290 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-05-23 17:33:13.293 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.MaterialTypeController.GetAllMaterialType (LXP.Api)'
+2024-05-23 17:33:13.304 +05:30 [INF] Route matched with {action = "GetAllMaterialType", controller = "MaterialType"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllMaterialType() on controller LXP.Api.Controllers.MaterialTypeController (LXP.Api).
+2024-05-23 17:33:14.689 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.APIResponse'.
+2024-05-23 17:33:14.701 +05:30 [INF] Executed action LXP.Api.Controllers.MaterialTypeController.GetAllMaterialType (LXP.Api) in 1392.9815ms
+2024-05-23 17:33:14.702 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.MaterialTypeController.GetAllMaterialType (LXP.Api)'
+2024-05-23 17:33:14.704 +05:30 [INF] HTTP GET /lxp/course/materialtype responded 200 in 1414.8658 ms
+2024-05-23 17:33:14.711 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/lxp/course/materialtype - 200 null application/json; charset=utf-8 1434.1224ms
+2024-05-23 17:36:55.930 +05:30 [INF] Request starting HTTP/1.1 DELETE http://localhost:5199/lxp/course/material/6f11c0e3-0f1f-4c72-831e-c733f4b6cb8d - null null
+2024-05-23 17:36:55.939 +05:30 [INF] CORS policy execution successful.
+2024-05-23 17:36:55.940 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.MaterialController.DeleteMaterial (LXP.Api)'
+2024-05-23 17:36:55.949 +05:30 [INF] Route matched with {action = "DeleteMaterial", controller = "Material"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteMaterial(System.Guid) on controller LXP.Api.Controllers.MaterialController (LXP.Api).
+2024-05-23 17:36:56.261 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.APIResponse'.
+2024-05-23 17:36:56.268 +05:30 [INF] Executed action LXP.Api.Controllers.MaterialController.DeleteMaterial (LXP.Api) in 317.1513ms
+2024-05-23 17:36:56.269 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.MaterialController.DeleteMaterial (LXP.Api)'
+2024-05-23 17:36:56.271 +05:30 [INF] HTTP DELETE /lxp/course/material/6f11c0e3-0f1f-4c72-831e-c733f4b6cb8d responded 200 in 336.0618 ms
+2024-05-23 17:36:56.273 +05:30 [INF] Request finished HTTP/1.1 DELETE http://localhost:5199/lxp/course/material/6f11c0e3-0f1f-4c72-831e-c733f4b6cb8d - 200 null application/json; charset=utf-8 346.3021ms
+2024-05-23 17:38:59.722 +05:30 [INF] Request starting HTTP/1.1 DELETE http://localhost:5199/lxp/course/topic/0717cf46-e341-4863-b209-e0422d2109eb - null null
+2024-05-23 17:38:59.729 +05:30 [INF] CORS policy execution successful.
+2024-05-23 17:38:59.730 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.CourseTopicController.DeleteCourseTopic (LXP.Api)'
+2024-05-23 17:38:59.733 +05:30 [INF] Route matched with {action = "DeleteCourseTopic", controller = "CourseTopic"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteCourseTopic(System.String) on controller LXP.Api.Controllers.CourseTopicController (LXP.Api).
+2024-05-23 17:38:59.837 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.APIResponse'.
+2024-05-23 17:38:59.838 +05:30 [INF] Executed action LXP.Api.Controllers.CourseTopicController.DeleteCourseTopic (LXP.Api) in 103.3703ms
+2024-05-23 17:38:59.839 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.CourseTopicController.DeleteCourseTopic (LXP.Api)'
+2024-05-23 17:38:59.840 +05:30 [INF] HTTP DELETE /lxp/course/topic/0717cf46-e341-4863-b209-e0422d2109eb responded 200 in 111.3631 ms
+2024-05-23 17:38:59.841 +05:30 [INF] Request finished HTTP/1.1 DELETE http://localhost:5199/lxp/course/topic/0717cf46-e341-4863-b209-e0422d2109eb - 200 null application/json; charset=utf-8 119.7033ms
